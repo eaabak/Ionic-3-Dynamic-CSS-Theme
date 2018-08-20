@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <button ion-button (click)="changeTheme('autumn')">Autumn</button>
+  <button ion-button (click)="changeTheme('night')">Dark</button>
+  <button ion-button (click)="changeTheme('neon')">Neon</button>
+</ion-content>
